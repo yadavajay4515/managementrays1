@@ -24,12 +24,16 @@ export default class Nextpage extends Component {
           {/* <Route path='/login' element={<Login/>} /> */}
          <Route path='/addstudent' element={<Addstudent/>}/>
          <Route path='/studentlist' element={<Studentlist/>}/>
+         <Route path='/addstudent/:pid' element={<Addstudent/>}/>
+         
 
          <Route path='/addmarksheet' element={<Addmarksheet/>}/>
          <Route path='/markSheetlist' element={<MarkSheetList/>}/>
+         <Route path="/addmarksheet/:pid" element={<Addmarksheet/>}/>
 
          <Route path='/collegedetails' element={<Collegedetails/>}/>
          <Route path='/collegelist' element={<Collegelist/>}/>
+         <Route path='/collegedetails/:pid' element={<Collegedetails/>}/>
 
          <Route path='/addrole' element={<Addrole/>}/>
          <Route path='/rolelist' element={<Rolelist/>}/>
